@@ -1,0 +1,9 @@
+# Running
+
+docker run --rm -ti -p 8080:80 stefanhudelmaier/azure-function-test
+
+# Evaluating
+
+....
+curl "http://127.0.0.1:8080/api/HttpFunction?name=Stefan"
+....
